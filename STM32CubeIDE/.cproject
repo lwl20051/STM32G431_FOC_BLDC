@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?>
+
+<cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+  <storageModule moduleId="org.eclipse.cdt.core.settings">
+    <cconfiguration id="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1830500886">
+      <storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.buildSystem" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1830500886" moduleId="org.eclipse.cdt.managedbuilder.core.buildSystem">
+        <configuration artifactName="FOC_G431" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildErrorParserList="org.eclipse.cdt.core.CErrorParser;org.eclipse.cdt.core.ASMErrorParser;org.eclipse.cdt.core.GmakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GASErrorParser" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" buildSystemId="org.eclipse.cdt.managedbuilder.core.buildSystem" cleanCommand="rm -rf" description="" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1830500886" name="Debug" optimalization="disabled" parent="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug">
+          <folderInfo id="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1830500886." name="/" resourcePath="">
+            <toolChain id="com.st.stm32cube.ide.mcu.gnu.managedbuild.toolchain.exe.debug.1053329980" name="STM32 MCU GCC" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.toolchain.exe.debug">
+              <option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_mcu.1541357039" name="MCU" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_mcu" useByScannerDiscovery="false" value="STM32G431RBTx" valueType="string"/>
+              <option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_cpuid.1264124469" name="CPU" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_cpuid" useByScannerDiscovery="false" value="0" valueType="string"/>
+              <option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_coreid.1190500925" name="Core" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_coreid" useByScannerDiscovery="false" value="0" valueType="string"/>
+              <option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.fpu.1405874454" name="Floating point unit" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.fpu" useByScannerDiscovery="false" value="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.fpu.value.fpv4-sp-d16" valueType="enumerated"/>
+              <option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.floatabi.1205453617" name="Floating point ABI" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.floatabi" useByScannerDiscovery="false" value="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.floatabi.value.hard" valueType="enumerated"/>
+              <option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.optimization.level.808712732" name="Optimization level" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.optimization.level" useByScannerDiscovery="false" value="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.optimization.level.value.none" valueType="enumerated"/>
+              <option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.optimization.message.708189843" name="GNU compiler optimization level" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.optimization.message" useByScannerDiscovery="false" value="false" valueType="boolean"/>
+              <option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.debugging.level.792560596" name="Debug level" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.debugging.level" useByScannerDiscovery="false" value="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.debugging.level.value.max" valueType="enumerated"/>
+              <targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.targetplatform.674904389" isAbstract="false" osList="all" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.targetplatform"/>
+              <builder buildPath="/FOC_G431" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.builder.1381323108" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.builder"/>
+              <tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.641540237" name="MCU GCC Assembler" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler">
+                <option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.option.defs.1582357784" name="Define symbols (-D)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.option.defs" useByScannerDiscovery="false" valueType="definedSymbols">
+                  <listOptionValue builtIn="false" value="USE_HAL_DRIVER"/>
+                  <listOptionValue builtIn="false" value="STM32G431xx"/>
+                </option>
+              </tool>
+              <tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1800213761" name="MCU GCC Compiler" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler">
+                <option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.optimization.level.832302537" name="Optimization level" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.optimization.level" useByScannerDiscovery="false" value="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.optimization.level.value.none" valueType="enumerated"/>
+                <option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.optimization.message.1590558731" name="GNU compiler optimization level" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.optimization.message" useByScannerDiscovery="false" value="false" valueType="boolean"/>
+                <option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.debugging.level.1337688440" name="Debug level" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.debugging.level" useByScannerDiscovery="false" value="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.debugging.level.value.max" valueType="enumerated"/>
+                <option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.include.paths.1974722357" name="Include paths (-I)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+                  <listOptionValue builtIn="false" value="/FOC_G431/Core/Inc"/>
+                  <listOptionValue builtIn="false" value="/FOC_G431/Drivers/STM32G4xx_HAL_Driver/Inc"/>
+                  <listOptionValue builtIn="false" value="/FOC_G431/Drivers/STM32G4xx_HAL_Driver/Inc/Legacy"/>
+                  <listOptionValue builtIn="false" value="/FOC_G431/Drivers/CMSIS/Device/ST/STM32G4xx/Include"/>
+                  <listOptionValue builtIn="false" value="/FOC_G431/Drivers/CMSIS/Include"/>
+                  <listOptionValue builtIn="false" value="/FOC_G431/Hardwork/App"/>
+                  <listOptionValue builtIn="false" value="/FOC_G431/Hardwork/Algorithm"/>
+                  <listOptionValue builtIn="false" value="/FOC_G431/Hardwork/BSP"/>
+                  <listOptionValue builtIn="false" value="/FOC_G431/Hardwork/Config"/>
+                  <listOptionValue builtIn="false" value="/FOC_G431/Hardwork/Driver"/>
+                </option>
+                <option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.defs.2088581756" name="Define symbols (-D)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.defs" useByScannerDiscovery="false" valueType="definedSymbols">
+                  <listOptionValue builtIn="false" value="USE_HAL_DRIVER"/>
+                  <listOptionValue builtIn="false" value="STM32G431xx"/>
+                </option>
+              </tool>
+              <tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker.1889102319" name="MCU GCC Linker" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker">
+                <option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker.option.script.872153043" name="Linker Script (-T)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker.option.script" useByScannerDiscovery="false" value="STM32G431RBTX_FLASH.ld" valueType="string"/>
+                <option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker.option.other.301744424" name="Other linker flags" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker.option.other" useByScannerDiscovery="false" value="-u _printf_float" valueType="string"/>
+              </tool>
+            </toolChain>
+          </folderInfo>
+          <sourceEntries>
+            <entry excluding="Drivers/CMSIS/Device/ST/STM32G4xx/Source/Templates/arm/startup_stm32g431xx.s|Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_timebase_tim.c" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name=""/>
+            <entry excluding="Debug" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="STM32CubeIDE"/>
+          </sourceEntries>
+        </configuration>
+      </storageModule>
+      <storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+    </cconfiguration>
+  </storageModule>
+  <storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+  <storageModule moduleId="org.eclipse.cdt.core.language.mapping"/>
+  <storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+  <storageModule moduleId="org.eclipse.cdt.ui.language.mapping"/>
+  <storageModule moduleId="cdtBuildSystem">
+    <project id="FOC_G431.com.st.stm32cube.ide.mcu.gnu.managedbuild.target.exe.debug.335608150" name="Debug" projectType="com.st.stm32cube.ide.mcu.gnu.managedbuild.target.exe.debug"/>
+  </storageModule>
+  <storageModule moduleId="scannerConfiguration">
+    <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+  </storageModule>
+  <storageModule moduleId="org.eclipse.cdt.make.core.buildtargets">
+    <buildTargets>
+      <target name="all" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+        <buildCommand>make</buildCommand>
+        <buildArguments></buildArguments>
+        <buildTarget>all</buildTarget>
+        <stopOnError>true</stopOnError>
+        <useDefaultCommand>true</useDefaultCommand>
+      </target>
+    </buildTargets>
+  </storageModule>
+</cproject>
